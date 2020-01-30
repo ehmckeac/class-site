@@ -1,0 +1,50 @@
+body {
+  font-family: courier;
+}
+
+h1 {
+  background:pink;
+  font-size:40px;
+  font-weight:normal;
+  padding: 10px;
+  font-family: courier;
+}
+
+h2 {
+  background:green;
+  margin:0px;
+  font-weight: normal;
+  color: pink;
+  padding:10px;
+}
+
+.medium {
+  font-size: 80px;
+  color: pink;
+  font-weight: normal;
+}
+
+.Conversation {
+  background:pink;
+  margin:0px;
+  padding:10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+p{
+  font-weight: lighter;
+  margin:0px;
+}
+
+.stranger {
+  background:green;
+  color:pink;
+  margin:0px;
+}
+
+.recommend {
+  text-decoration:underline;
+}
