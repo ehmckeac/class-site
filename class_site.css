@@ -1,20 +1,28 @@
+body {
+  background: rgb(205, 84, 24)
+}
+
 .Hello {
   display: flex;
+  margin-top: 240px;
+  bottom:0px;
   font-family: paralucent;
   font-size: 200px;
   color: rgb(244, 120, 32);
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .Welcome {
   display: flex;
   font-size: 30px;
   font-family: Azo Sans;
-  color: rgb(68, 72, 150);
+  /* color: rgb(68, 72, 150); */
+  color: rgb(226, 241, 55);
   align-items: center;
   justify-content: center;
 }
 li {
   font-family: Azo Sans;
+  color: rgb(226, 241, 55);
 }

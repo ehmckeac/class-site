@@ -1,0 +1,91 @@
+body {
+  /* width:100%;
+  height:100%; */
+  padding:0;
+  margin:0;
+  background: rgb(16, 58, 106);
+}
+
+.flex-wrapper {
+  display:flex;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  top:0%;
+  bottom:0%;
+}
+
+.flex-row {
+  display:flex;
+  width:100vw;
+  /* height:100vh; */
+  background: rgb(16, 58, 106);
+  justify-content: space-around;
+  align-items: center;
+  top:0%;
+  bottom:0%;
+}
+/* .circle {
+  width:30vw;
+  height:30vw;
+  background: rgb(88,110,105);
+  /* border-radius:20px; */
+  /* border-radius:100%;
+  animation: skew 1s
+  infinite ease-in-out alternate;
+} */
+
+/* .name {
+  position: fixed;
+  font-size: 60px;
+  top: 50%;
+  left:50%;
+  align-content: center;
+  transform:translate(-50%,-50%);
+  z-index: -1;
+}
+
+p {
+  font-family: sans-serif;
+  color: rgb(187, 183, 187);
+} */
+
+.square {
+  width:3vw;
+  height:3vw;
+  background: rgb(255, 249, 193);
+  /* border-radius:20px; */
+  animation: skew 2s
+  infinite ease-in alternate;
+}
+
+/* .runner {
+  height:10px;
+  width:200px;
+  background: rgb(88,110,105);
+  position: fixed;
+  bottom:0;
+  left:0;
+  animation: run 1s infinite ease;
+} */
+
+/* @keyframes pulse {
+  0% {transform:scale(1);
+      background: rgb(88,110,105);}
+  100% {transform:scale(1.2);
+      background: rgb(235,255,0);}
+} */
+
+@keyframes skew {
+  0% {transform:skew(0deg,0deg);
+      background: rgb(228, 220, 143);}
+  100% {transform:skew(20deg,40deg);
+      background: rgb(255, 255, 255);}
+}
+@keyframes run {
+  0% {transform:translateX(-400px);}
+  100% {transform:translateX(100vw);}
+}
