@@ -1,0 +1,85 @@
+body {
+  background: rgb(221, 188, 144);
+  width: 100%;
+  padding-bottom: 40px;
+  margin:0;
+}
+
+.box1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.box2 {
+  display: flex;
+  background: rgb(189, 32, 88);
+  width: 20%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+h1 {
+  padding: 20px;
+  margin-left: 40%;
+  /* color:rgb(216, 218, 194); */
+  color:black;
+}
+
+h2{
+  color: rgb(106, 106, 228);
+  padding: 20px;
+}
+
+.box3 {
+  display: flex;
+  width: 400px;
+  margin-left: 15%;
+}
+
+.box4 {
+  display: flex;
+  width: 400px;
+  margin-left: 60%;
+}
+
+.box5 {
+  display: flex;
+  width: 400px;
+  margin-left: 25%;
+}
+
+.box6 {
+  display: flex;
+  width: 400px;
+  margin-left: 50%;
+}
+
+.box7 {
+  display: flex;
+  width: 400px;
+  margin-left: 10%;
+}
+
+
+p {
+  /* display: flex; */
+  color: rgb(33, 33, 33);
+  /* width: 100%;
+  padding-left:40px;
+  margin:0;*/
+}
+
+.hairs {
+  color: black;
+}
+  /* padding
+  margin
+  border
+  height, width
+  position
+  top, right, bottom, left
+  display
+  float
+  color */

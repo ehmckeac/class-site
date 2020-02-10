@@ -1,0 +1,72 @@
+body {
+  color: rgb(23, 95, 233);
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 300px;
+  /* color: rgb(0, 171, 217); */
+  color: rgb(39, 0, 121);
+  margin-bottom: 100px;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: fugaz one;
+  font-size; 200px;
+  margin-top:0;
+  margin-bottom: 400px;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-size: 50px;
+  font-family: fugaz one;
+  font-weight: lighter;
+  padding: 50px;
+}
+
+.block2 {
+  color: rgb(12, 199, 126);
+}
+
+.block3 {
+  color: rgb(133, 11, 95);
+}
+
+.block4 {
+  color: rgb(92, 131, 61);
+}
+/* padding
+margin
+border
+height, width
+position
+top, right, bottom, left
+display
+float
+color */
+
+/* p
+br
+&nbsp
+div
+h1, h2, h3, h4, h5, h6
+strong
+em
+big
+small
+ol
+ul
+li */
+
+/* font-family
+font-weight
+font-size
+text-align
+line-height
+letter-spacing
+text-transform */

@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(22, 184, 119);
+  width: 100%;
+  margin: 0;
+}
+
+.box1 {
+  display: flex;
+  position: fixed;
+  width: 300px;
+  height: 50px;
+  /* background: rgb(31, 140, 71); */
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-left: 275px;
+}
+
+.box2 {
+  display: flex;
+  position: fixed;
+  width: 220px;
+  height: 70px;
+  color: rgb(233, 105, 5);
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-top: 200px;
+  margin-left: 275px;
+}
+
+.box3 {
+  /* display: flex; */
+  width: 200px;
+  background-color: rgb(157, 116, 82);
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.box4 {
+  /* display: flex; */
+  width: 200px;
+  background-color: rgb(157, 116, 82);
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+
+.box5 {
+  /* display: flex; */
+  width: 200px;
+  background-color: rgb(157, 116, 82);
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 900px;
+}
+/* padding
+margin
+border
+height, width
+position
+top, right, bottom, left
+display
+float
+color */
+
+/* p
+br
+&nbsp
+div
+h1, h2, h3, h4, h5, h6
+strong
+em
+big
+small
+ol
+ul
+li */
