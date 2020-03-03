@@ -1,0 +1,369 @@
+/* .cursor:help {
+  cursor: url('glass.png'), auto;
+} */
+.cursor{
+  cursor: url("glass.png"), default;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  background: red;
+  position: relative;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 500%;
+}
+
+.box1 {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  font-family: beer money;
+  font-size: 60px;
+  text-align: center;
+}
+
+.box2 {
+  position: relative;
+  top: 100px;
+  width: 200px;
+  height: 1000px;
+  margin-left: 40%;
+  /* position: absolute; */
+  /* width:30%; */
+}
+
+.box3 {
+  position: relative;
+  top: 200px;
+  width: 600px;
+  height: 200px;
+  /* width: 50%;
+  height: 500px; */
+  margin-left: 20%;
+}
+
+.meryl {
+  opacity: 0.1;
+  transition: 0.5s;
+  /* opacity: 0.5;
+  transition: opacity 2s ease; */
+}
+
+.meryl:hover {
+  opacity: 1;
+}
+
+.box4 {
+  position: relative;
+  top: 1000px;
+  width: 600px;
+  height: 200px;
+  margin-left: 90%;
+}
+
+.kim {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.kim:hover {
+  opacity: 1;
+}
+
+.box5 {
+  position: relative;
+  top: 1500px;
+  width: 600px;
+  height: 200px;
+  margin-left: 5%;
+}
+
+.bob {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.bob:hover {
+  opacity: 1;
+}
+.box6 {
+  position: relative;
+  top: 2000px;
+  width: 600px;
+  height: 200px;
+  margin-left: 150%;
+}
+
+.danny {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.danny:hover {
+  opacity: 1;
+}
+
+.box7 {
+  position: relative;
+  top: 200px;
+  width: 600px;
+  height: 200px;
+  margin-left: 180%;
+}
+
+.beyonce {
+  opacity: 0.1;
+  transition: 0.5s;
+  /* opacity: 0.5;
+  transition: opacity 2s ease; */
+}
+
+.beyonce:hover {
+  opacity: 1;
+}
+
+.box8 {
+  position: relative;
+  top: 2200px;
+  width: 600px;
+  height: 200px;
+  margin-left: 40%;
+}
+
+.ellen {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.ellen:hover {
+  opacity: 1;
+}
+
+.box9 {
+  position: relative;
+  top: 2800px;
+  width: 600px;
+  height: 200px;
+  margin-left: 100%;
+}
+
+.harry {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.harry:hover {
+  opacity: 1;
+}
+
+.box10 {
+  position: relative;
+  top: 3200px;
+  width: 600px;
+  height: 200px;
+  margin-left: 180%;
+}
+
+.janelle {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.janelle:hover {
+  opacity: 1;
+}
+
+.box11 {
+  position: relative;
+  top: 3800px;
+  width: 600px;
+  height: 200px;
+  margin-left: 20%;
+}
+
+.billie {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.billie:hover {
+  opacity: 1;
+}
+
+.box12 {
+  position: relative;
+  top: 4200px;
+  width: 600px;
+  height: 200px;
+  margin-left: 90%;
+}
+
+.jen {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.jen:hover {
+  opacity: 1;
+}
+
+.box13 {
+  position: relative;
+  top: 4800px;
+  width: 600px;
+  height: 200px;
+  margin-left: 50%;
+}
+
+.lizzo {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.lizzo:hover {
+  opacity: 1;
+}
+
+.box14 {
+  position: relative;
+  top: 5200px;
+  width: 600px;
+  height: 200px;
+  margin-left: 130%;
+}
+
+.meghan {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.meghan:hover {
+  opacity: 1;
+}
+
+.box15 {
+  position: relative;
+  top: 5800px;
+  width: 600px;
+  height: 200px;
+  margin-left: 80%;
+}
+
+.nas {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.nas:hover {
+  opacity: 1;
+}
+
+.box16 {
+  position: relative;
+  top: 6500px;
+  width: 600px;
+  height: 200px;
+  margin-left: 170%;
+}
+
+.taylor {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.taylor:hover {
+  opacity: 1;
+}
+
+.box17 {
+  position: relative;
+  top: 7000px;
+  width: 600px;
+  height: 200px;
+  margin-left: 110%;
+}
+
+.zendaya {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.zendaya:hover {
+  opacity: 1;
+}
+
+.box18 {
+  position: relative;
+  top: 7500px;
+  width: 600px;
+  height: 200px;
+  margin-left: 30%;
+}
+
+.henry {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.henry:hover {
+  opacity: 1;
+}
+
+.box19 {
+  position: relative;
+  top: 8000px;
+  width: 600px;
+  height: 200px;
+  margin-left: 200%;
+  /* text-align: center;
+  font-size: 50px;
+  font-family: beer money; */
+}
+
+.monster {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.monster:hover {
+  opacity: 1;
+}
+
+.caption {
+  /* text-align: center; */
+  font-size: 35px;
+  font-family: beer money;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.caption:hover {
+  opacity: 1;
+}
+
+.box20 {
+  position: relative;
+  top: 8500px;
+  width: 600px;
+  height: 200px;
+  margin-left: 80%;
+  margin-bottom: 10%;
+}
+
+.mindy {
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.mindy:hover {
+  opacity: 1;
+}

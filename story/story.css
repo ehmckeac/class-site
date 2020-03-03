@@ -1,0 +1,96 @@
+/* .cursor:help {
+  cursor: url('glass.png'), auto;
+} */
+.cursor{
+  cursor: url("glass.png"), default;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  background: red;
+  position: relative;
+}
+/* .box {
+  position: relative;
+  width: 100%;
+  height: 200%;
+  background: red;
+} */
+
+p {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  font-family: beer money;
+  font-size: 60px;
+  text-align: center;
+  /* position: relative; */
+}
+
+.grid {
+  position:absolute;
+  top: 20px;
+  left:20px;
+  display: flex;
+  flex-wrap: wrap;
+  width:95%;
+  /* width: 500px;
+  height: 400px; */
+  flex-direction: row;
+  margin:0;
+  z-index:2;
+}
+
+.grid__item {
+  height: 180px;
+  width: 180px;
+  opacity: 0;
+  border-radius:100%;
+  background: white;
+  transition: opacity 2s ease 0.4s transform 0.8s ease;
+  /* ease 0.4s; transform 0.8s ease; */
+}
+
+.grid__item:hover {
+  opacity: .5;
+  transition: opacity 0.2s ease transform 0.8s ease;
+}
+
+.container2 {
+  position: relative;
+  top: 100px;
+  width: 90%;
+  height: 100%;
+  /* margin-left: 50%;
+  margin-top: 200px; */
+}
+
+.container3 {
+  position: relative;
+  top: 200px;
+  width: 50%;
+  height: 90%;
+}
+
+img {
+  position: absolute;
+  max-width:30%;
+  height:30%;
+  margin-left: 50%;
+  margin-top: 200px;
+}
+
+
+.meryl {
+  opacity: 0;
+  transition: 0.5s;
+  /* opacity: 0.5;
+  transition: opacity 2s ease; */
+}
+
+.meryl:hover {
+  opacity: 1;
+}
