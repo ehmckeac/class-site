@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: rgb(240, 188, 5);
+}
+
+.button {
+  background: rgb(245, 89, 73);
+  border-radius:10px;
+  padding:10px;
+  cursor:pointer;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.button:hover {
+  background:lightgreen;
+}
+
+#box {
+  position: fixed;
+  /* height:100vh; */
+  bottom:-800px;
+  text-align: center;
+  transition:transform 1s ease;
+  margin-left:23%;
+}
+
+.open {
+  transform: translateY(-800px);
+}
+
+.marquee {
+  width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  color:white;
+  font-size:25px;
+  /* border:1px solid #ccc; */
+  position: fixed;
+  font-family: sans-serif;
+  bottom:10%;
+  left: 50%;
+  transform:translateX(-50%);
+}
