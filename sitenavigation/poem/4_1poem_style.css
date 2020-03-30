@@ -1,0 +1,74 @@
+html {
+  width: 3000px;
+}
+
+body {
+  background-color: rgb(146, 198, 132);
+  margin: 40px;
+}
+
+h1 {
+  /* width:30%; */
+  font-size: 200px;
+  font-family: gravitas one;
+  /* text-align: center; */
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: rgb(85, 93, 101);
+}
+
+h2 {
+  font-family: gravitas one;
+  font-size: 30px;
+  color: rgb(173, 88, 104);
+  margin: 0;
+  /* text-align: center; */
+}
+
+p {
+  /* text-align: center; */
+  font-family: volkhov;
+  font-size: 12px;
+  line-height: 100px;
+  padding-top: 200px;
+  /* padding-left: 20%; */
+  /* padding-right: 20%; */
+}
+
+.line1 {
+  text-align: right;
+  font-family: volkhov;
+  font-size: 12px;
+  line-height: 100px;
+  /* padding-top: 300px; */
+}
+/* padding
+margin
+border
+height, width
+position
+top, right, bottom, left
+display
+float
+color */
+
+/* p
+br
+&nbsp
+div
+h1, h2, h3, h4, h5, h6
+strong
+em
+big
+small
+ol
+ul
+li */
+
+/* font-family
+font-weight
+font-size
+text-align
+line-height
+letter-spacing
+text-transform */

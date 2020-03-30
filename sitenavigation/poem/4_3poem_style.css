@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(255, 156, 254);
+}
+
+h1 {
+  font-family: gloss drop;
+  color: rgb(3, 28, 99);
+  font-size:200px;
+  line-height: 220px;
+}
+
+h2{
+  font-family: big caslon;
+  color: rgb(255, 230, 243);
+  font-size: 30px;
+  text-align: right;
+  margin-right: 30px;
+}
+
+p {
+  font-family:big caslon;
+  color: rgb(255, 230, 243);
+  font-size: 50px;
+}
+
+.block1 {
+  background: rgb(196, 164, 2);
+  width: 75%;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.block2 {
+  background: rgb(196, 119, 2);
+  width: 75%;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50%;
+}
+
+.block3 {
+  background: rgb(163, 196, 2);
+  width: 75%;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

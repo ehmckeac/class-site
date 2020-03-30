@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(249, 141, 117);
+}
+
+h1 {
+  color: rgb(19, 52, 28);
+  font-size: 50px;
+  font-family: trashhand;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  color: rgb(179, 192, 199);
+  font-style: 30px;
+  font-family: daniel;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-style: 10px;
+  font-family: daniel;
+  font-size: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.runner {
+  width: 350px;
+  background-color:rgb(48, 45, 36);
+  animation: run 10s infinite ease;
+}
+
+@keyframes run {
+  0% {transform:translateX(-400px);}
+  100% {transform:translateX(100vw);}
+}
