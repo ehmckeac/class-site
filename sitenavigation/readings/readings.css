@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(7, 105, 99);
+}
+
+h1 {
+  color: rgb(82, 1, 119);
+  font-family: hind;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: rgb(1, 52, 40);
+  font-size: 20px;
+  font-family: lao mn;
+  background: rgb(227, 165, 165);
+  padding: 20px;
+  margin-left:20%;
+  margin-right:20%;
+}
